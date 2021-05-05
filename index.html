@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mi Carcacha</title>
+
+	<!--Estilos-->
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/responsivo.css">
+
+	<!--Fuente-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"> 
+</head>
+<body>
+	<header class="header">
+		<div class="headerImg">
+			<div class="headerInfo">
+				<h1>Mi Carcacha</h1>
+				<hr>
+			</div>
+		</div>
+
+		<!--MENU DE NAVEGACIÓN-->
+		<nav class="menu">
+			<div class="logo">
+				<h1>
+					<a href="#">Mi Carcacha</a>
+				</h1>
+				<span class="btnMenu"><i class="fas fa-bars"></i></span>
+			</div>
+
+			<div class="menuLista">
+				<ul class="lista">
+					<li><a href="#about">Conócenos</a></li>
+					<li><a href="#catalogo">Catálogo</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<main class="main" id='about'>
+
+		<!--ABOUT-->
+		<section class="about" id='about'>
+			<div class="aboutInfo">
+				<h2>Conócenos</h2>
+				<p>
+					Sitio oficial de la agencia de autos familiar “Mi Carcacha” fundada desde el año de 1980.
+					<br>
+ 					Este negocio familiar comenzó en la cochera de los abuelos y poco a poco fue creciendo pasando a vender autos nuevos y semi-nuevos en un espacio más grande.
+ 					<br>
+ 					Hoy en día contamos con más de 100 clientes satisfechos y gracias a eso nos hemos posicionado como la agencia de autos número uno de la región.
+				</p>
+
+				<div class="aboutImg">
+					<img src="img/about.jpg" alt="Agencia de Autos">
+				</div>
+			</div>
+		</section>
+
+		<!--FRASE-->
+		<section class="frase">
+			<figure class="fraseImg">
+				<h3>El fracaso es simplemente una nueva oportunidad para empezar,<br> esta vez de forma más inteligente.</h3>
+				<p>- Henry Ford -</p>
+			</figure>
+			<div id="catalogo"></div>
+		</section>
+
+		<!--CATALOGO-->
+		<section class="catalogo">
+			<div class="catalogoCont">
+				<div class="imgCard">
+					<img src="img/catalogo/01.jpg" alt="Auto Económico">
+				</div>
+				<div class="imgCard">
+					<img src="img/catalogo/02.jpg" alt="Camioneta Van">
+				</div>
+				<div class="imgCard">
+					<img src="img/catalogo/03.jpg" alt="Auto Clásico">
+				</div>
+				<div class="imgCard">
+					<img src="img/catalogo/04.jpg" alt="Auto de Lujo">
+				</div>
+				<div class="imgCard">
+					<img src="img/catalogo/05.jpg" alt="Auto Deportivo">
+				</div>
+				<div class="imgCard">
+					<img src="img/catalogo/06.jpg" alt="Food Truck">
+				</div>
+			</div>
+
+			<div class="galeriaModal">
+				<span class="cierreModal"><i class="fas fa-times"></i></span>
+
+				<img src="" alt="" id='imgModal'>
+
+				<div class="captionModal"></div>
+
+				<div class="listaGaleria">
+					<img src="img/catalogo/01.jpg" alt="Auto Económico">
+					<img src="img/catalogo/02.jpg" alt="Camioneta Van">
+					<img src="img/catalogo/03.jpg" alt="Auto Clásico">
+					<img src="img/catalogo/04.jpg" alt="Auto de Lujo">
+					<img src="img/catalogo/05.jpg" alt="Auto Deportivo">
+					<img src="img/catalogo/06.jpg" alt="Food Truck">
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!--HOME-->
+	<div class="home">
+		<span class="fas fa-level-up-alt"></span>
+	</div>
+
+	<!--FOOTER-->
+	<footer class="footer">
+		<p>&copy; Mi Carcacha | Derechos Reservados 2021</p>
+	</footer>
+
+
+<!--Scripts-->
+<script src='js/app.js'></script>
+<script src='js/modal.js'></script>
+<script src="https://kit.fontawesome.com/15876357fa.js" crossorigin="anonymous"></script>	
+</body>
+</html>
