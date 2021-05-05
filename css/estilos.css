@@ -66,11 +66,11 @@ body{
 	width:100%;
 	height: 60px;
 	position:relative;
-	background: var(--blanco);
+	background: var(--oscuro);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border-bottom:4px solid var(--oscuro);
+	border-bottom:4px solid black;
 }
 .menu .btnMenu{
 	display: none;
@@ -81,7 +81,7 @@ body{
 .menu .logo h1 a{
 	font-weight: normal;
 	font-size: 25px;
-	color:var(--oscuro);
+	color:var(--blanco);
 	text-decoration: none;
 }
 .menu .menuLista{
@@ -96,19 +96,19 @@ body{
 }
 .menu .menuLista .lista li a{
 	text-decoration: none;
-	color:var(--oscuro);
+	color:var(--blanco);
 	font-size: 20px;
 	padding:5px;
 	margin: 0px 10px;
 	transition: 0.5s;
 }
 .menu .menuLista .lista li a:hover{
-	background: var(--oscuro);
-	color:var(--blanco);
+	background: var(--blanco);
+	color:var(--oscuro);
 }
 .menu .menuLista .lista li a.activo{
-	background: var(--oscuro);
-	color:var(--blanco);
+	background: var(--blanco);
+	color:var(--oscuro);
 }
 .pegar{
 	 position: fixed;
