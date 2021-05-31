@@ -29,7 +29,7 @@ body{
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    background-color:rgba(0,0,0,0.8);
+    background-color:rgba(0,0,0,0.9);
     background-blend-mode: soft-light;
     position: relative;
     width: 100%;
@@ -49,16 +49,24 @@ body{
 }
 .headerImg .headerInfo h1{
 	color:var(--blanco);
-	font-size: 70px;
+	font-size: 90px;
 	font-weight: normal;
+	border:2px solid var(--blanco);
+	padding: 30px 80px;
 }
-.headerImg .headerInfo hr{
-	border:none;
-	outline: none;
-	height: 2px;
-	background: var(--blanco);
-	width:50%;
-	margin:15px 0;
+.headerImg .headerInfo .btnDown{
+	font-size: 25px;
+	color:var(--blanco);
+	text-align:center;
+	margin-top:30px;
+	cursor: pointer;
+	padding: 25px;
+	border-radius: 100px;
+	/*border:2px solid var(--blanco);*/
+	transition:0.3s;
+}
+.headerImg .headerInfo .btnDown:hover{
+	margin-top:50px;
 }
 
 /*MENU*/

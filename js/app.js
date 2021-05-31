@@ -43,3 +43,11 @@ btnMenu.addEventListener('click', () => {
 		on_off = true;
 	}
 });
+
+/*Boton Abajo*/
+let abajo = document.querySelector('#abajo');
+
+abajo.addEventListener('click', () => {
+  document.body.scrollTop = 950;
+  document.documentElement.scrollTop = 950;
+});
