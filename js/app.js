@@ -1,6 +1,6 @@
 /*MENU DE NAVEGACION*/
 const menu = document.querySelector('.menu');
-const linkContainer = document.querySelector('.Lista');
+const linkContainer = document.querySelector('.lista');
 const main = document.querySelector('.main');
 const pegar = menu.offsetTop;
 const btnMenu = document.querySelector('.btnMenu');
