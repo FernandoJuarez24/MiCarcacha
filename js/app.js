@@ -30,19 +30,6 @@ window.onscroll = () => {
     });
 }
 
-//MENU RESPONSIVO
-btnMenu.addEventListener('click', () => {
-	if (on_off) {
-		linkContainer.style.left = '0';
-
-		on_off = false;
-	}else{
-		on_off = false
-		linkContainer.style.left = '-100%';
-
-		on_off = true;
-	}
-});
 
 /*Boton Abajo*/
 let abajo = document.querySelector('#abajo');
