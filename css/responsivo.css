@@ -84,4 +84,7 @@
 		height: 250px;
 		margin-top: 150px;
 	}
+	.contacto .contactoContenedor .formularioContenedor{
+		width: 100%;
+	}
 }
